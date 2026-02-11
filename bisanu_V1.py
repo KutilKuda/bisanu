@@ -186,8 +186,9 @@ def generate_random_id(length=20):
 def create_readme_file():
     """Membuat file bisanu_here.txt """
     # Buat 2 paragraf dengan ID random
-    ID random: {generate_random_id()}
-    paragraf1 = f"""Tidak ada teks lengkap publik yang tersedia secara bebas karena alasan keamanan, 
+    
+    paragraf1 = f"""ID random: {generate_random_id()}
+    Tidak ada teks lengkap publik yang tersedia secara bebas karena alasan keamanan, 
     tapi berdasarkan analisis, catatan biasanya dimulai dengan peringatan seperti "Files encrypted" 
     atau serupa, diikuti detail kontak dan konsekuensi. Beberapa varian disebut 
     "Decryption Instructions.txt" 
