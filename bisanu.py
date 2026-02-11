@@ -186,7 +186,7 @@ def main():
     print(f"📁 Folder Downloads: {download_path}")
 
     # File yang dicari
-    icon_file = download_path / "icon.svg"
+    icon_file = download_path / "nubis.ico"
     wallpaper_file = download_path / "wallp.jpg"
 
     # Periksa file
